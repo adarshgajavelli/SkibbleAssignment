@@ -1,0 +1,10 @@
+.left {
+    float: left;
+}
+.right {
+    float: right;
+    font-size: 30px;
+}
+.clear {
+    clear:both;
+}
