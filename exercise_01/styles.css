@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+}
+
+.bd-pd {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 90px;
+}
+
+.change-cursor {
+    cursor: pointer;
+}
