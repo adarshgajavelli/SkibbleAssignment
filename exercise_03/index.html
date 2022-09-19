@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="cal-cl">
+        <form name="formData">
+            <div>
+                <label for="">Num1</label>
+                <input type="text" name="input1">
+            </div>
+            <br>
+            <div>
+                <label for="">Num2</label>
+                <input type="text" name="input2">
+            </div>
+            <br>
+            <div>
+                <label for="">Result</label>
+                <input type="text" name="output" disabled >
+            </div>
+            <br>
+            <div>
+                <input type="button" value="+" name="addbut" onclick="addNum()">
+                <input type="button" value="-" name="subbut" onclick="subNum()">
+                <input type="button" value="x" name="mulbut" onclick="mulNum()">
+                <input type="button" value="/" name="divbut" onclick="divNum()">
+            </div>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
