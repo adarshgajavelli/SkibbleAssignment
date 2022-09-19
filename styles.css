@@ -8,3 +8,20 @@
 .clear {
     clear:both;
 }
+.box {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    float: left;
+    min-height: 200px;
+    margin: 20px;
+    background-color: cadetblue;
+    padding: 20px;
+    width: 230px;
+  }
+  .box a {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    max-width: 200px;
+  }
