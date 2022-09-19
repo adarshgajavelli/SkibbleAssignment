@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.cal-cl {
+    background-color: white;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.cal-cl input {
+    padding: 10px 20px;
+}
